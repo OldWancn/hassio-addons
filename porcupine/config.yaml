@@ -1,9 +1,9 @@
 ---
-version: 1.5.3-1
+version: 1.5.3-2
 slug: porcupine
-name: porcupine
-description: RK3588 porcupine 3 using the Wyoming protocol
-url: https://github.com/Al3XKOoL/hassio-addons/tree/main/porcupine
+name: porcupine v4.0.0
+description: RK3588 porcupine 4 using the Wyoming protocol
+url: https://github.com/OldWancn/hassio-addons/tree/main/porcupine
 ingress: false
 arch:
   - amd64

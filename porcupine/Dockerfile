@@ -24,11 +24,11 @@ RUN \
         wheel \
     && .venv/bin/pip3 install --no-cache-dir \
         --extra-index-url https://www.piwheels.org/simple \
-        "wyoming-porcupine@git+https://github.com/Al3XKOoL/wyoming-porcupine@master" \
+        pvporcupine==4.0.1 \
+        "wyoming-porcupine@git+https://github.com/OldWancn/wyoming-porcupine@master" \
     \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/Al3XKOoL/porcupine.git && cd ./porcupine/binding/python && ../../../.venv/bin/python3 setup.py install
 
 WORKDIR /
 COPY rootfs /
